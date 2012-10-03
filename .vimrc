@@ -20,6 +20,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
+set mouse=a
 
 " tabs
 set tabstop=4
@@ -61,3 +62,4 @@ colorscheme mustang
 
 " bindings
 nnoremap <leader>a :Ack
+nnoremap <silent> <F8> :TagbarToggle<CR>
