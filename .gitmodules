@@ -19,3 +19,9 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/VimDebugger"]
+	path = bundle/VimDebugger
+	url = https://github.com/taxilian/VimDebugger.git
+[submodule "bundle/vim-debug"]
+	path = bundle/vim-debug
+	url = https://github.com/jabapyth/vim-debug.git
