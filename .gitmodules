@@ -25,3 +25,6 @@
 [submodule "bundle/vim-debug"]
 	path = bundle/vim-debug
 	url = https://github.com/jabapyth/vim-debug.git
+[submodule "bundle/DBGPavim"]
+	path = bundle/DBGPavim
+	url = https://github.com/brookhong/DBGPavim.git

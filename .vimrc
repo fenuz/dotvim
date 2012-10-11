@@ -62,4 +62,18 @@ colorscheme mustang
 
 " bindings
 nnoremap <leader>a :Ack
-nnoremap <silent> <F8> :TagbarToggle<CR>
+
+" syntax highlighting
+au BufRead,BufNewFile *.template set filetype=smarty
+
+augroup sparkup_types
+  " Remove ALL autocommands of the current group.
+  autocmd!
+  " Add sparkup to new filetypes
+  autocmd FileType smarty runtime! ftplugin/html/sparkup.vim
+augroup END
+
+" php debugger
+let g:dbgPavimPort = 9009
+let g:dbgPavimBreakAtEntry = 0
+let g:dbgPavimPathMap = [['/cygdrive/c/','C:/'],]
