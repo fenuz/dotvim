@@ -28,3 +28,6 @@
 [submodule "bundle/DBGPavim"]
 	path = bundle/DBGPavim
 	url = https://github.com/brookhong/DBGPavim.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git

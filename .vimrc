@@ -62,6 +62,7 @@ colorscheme mustang
 
 " bindings
 nnoremap <leader>a :Ack
+nnoremap <leader>u :GundoToggle<CR>
 
 " syntax highlighting
 au BufRead,BufNewFile *.template set filetype=smarty
