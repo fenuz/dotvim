@@ -59,6 +59,7 @@ nnoremap k gk
 
 " theme
 colorscheme mustang
+set t_Co=256
 
 " bindings
 nnoremap <leader>a :Ack
