@@ -18,14 +18,20 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
-set undofile
 set mouse=a
 
+if version >= 703
+  set relativenumber
+  set undofile
+  set colorcolumn=85
+else
+  set number
+endif
+
 " tabs
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 " search
 nnoremap / /\v
@@ -43,7 +49,6 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
 
 " disable arrow keys
 nnoremap <up> <nop>
